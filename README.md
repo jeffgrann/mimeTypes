@@ -76,8 +76,7 @@ mimeTypes.setDefaultMimeType('text/plain');
 <a id="TESTING"></a>
 Testing
 -------
-rackspaceCloudFiles uses Wakanda's implementation of [YUI Test] 
-(http://yuilibrary.com/yui/docs/test/). 
+mimeTypes uses Wakanda's implementation of [YUI Test](http://yuilibrary.com/yui/docs/test/). 
 
 ##### To test the client side:
 
