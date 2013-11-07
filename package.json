@@ -43,8 +43,7 @@
             "requireJS": "2.1.8"
         }
     },
-    "implements": ["cjs-module-0.3", "cjs-jsgi-0.1"],
     "os": ["linux", "macos", "win"],
     "engines": ["wakanda"
-          ]
+                  ]
 }
