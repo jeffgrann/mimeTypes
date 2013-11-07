@@ -1,50 +1,50 @@
 {
-   "name": "mimeTypes",
-   "version": "1.0.0",
-   "description": "Determines the MIME type of files based on their name and/or extension.",
-  "main": "./WakandaProject/mimeTypes/Modules/mimeTypes.js",
-  "keywords": [
-       "wakanda",
-    "javascript",
-    "MIME"
-  ],
-  "author": {
-    "name": "Jeff Grann",
-    "web": "https://github.com/jeffgrann"
-  },
-  "maintainers": [
-       {
-           "name": "Jeff Grann",
-      "web": "https://github.com/jeffgrann" 
-       } 
-   ],
-   "contributors": [
-  ],
-   "bugs": {
-       "web": "https://github.com/jeffgrann/mimeTypes/issues" 
-   },
-   "licenses": [
-       {
-           "type": "MIT",
-           "url": "https://github.com/jeffgrann/mimeTypes/blob/master/LICENSE" 
-       } 
-   ],
-   "repositories": [
-       {
-           "type": "git",
-           "url": "https://github.com/jeffgrann/mimeTypes" 
-       } 
-   ],
-   "dependencies": {
-       "server-side": {
-      "wakanda": "6.146205"
+    "name": "mimeTypes",
+    "version": "1.0.0",
+    "description": "Determines the MIME type of files based on their name and/or extension.",
+    "main": "./WakandaProject/mimeTypes/Modules/mimeTypes.js",
+    "keywords": [
+        "wakanda",
+        "javascript",
+        "MIME"
+        ],
+    "author": {
+        "name": "Jeff Grann",
+        "web": "https://github.com/jeffgrann"
     },
-    "browser-side": {
-      "requireJS": "2.1.8"
+    "maintainers": [
+        {
+        "name": "Jeff Grann",
+        "web": "https://github.com/jeffgrann"
     }
-  },
-   "implements": ["cjs-module-0.3", "cjs-jsgi-0.1"],
-   "os": ["linux", "macos", "win"],
-  "engines": ["wakanda"
-  ]
+    ],
+    "contributors": [
+        ],
+    "bugs": {
+        "web": "https://github.com/jeffgrann/mimeTypes/issues"
+    },
+    "licenses": [
+        {
+        "type": "MIT",
+        "url": "https://github.com/jeffgrann/mimeTypes/blob/master/LICENSE"
+    }
+    ],
+    "repositories": [
+        {
+        "type": "git",
+        "url": "https://github.com/jeffgrann/mimeTypes"
+    }
+    ],
+    "dependencies": {
+        "server-side": {
+            "wakanda": "6.146205"
+        },
+        "browser-side": {
+            "requireJS": "2.1.8"
+        }
+    },
+    "implements": ["cjs-module-0.3", "cjs-jsgi-0.1"],
+    "os": ["linux", "macos", "win"],
+    "engines": ["wakanda"
+          ]
 }
