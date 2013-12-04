@@ -1,8 +1,8 @@
 
-mimeTypes v1.0
-==============
+mimeTypes v1.0.1
+================
 
-mimeTypes is a unified Javascript RequireJS/CommonJS module for the browser or server (SSJS) which
+mimeTypes is a unified Javascript AMD/CommonJS module for the browser or server (SSJS) which
 determines a file's MIME type from its name and/or extension.
 
 The file extension to MIME type correspondence was derived from [stdicon.com/mimetypes]
@@ -10,6 +10,7 @@ The file extension to MIME type correspondence was derived from [stdicon.com/mim
 
 Contents
 --------
+* [Installation](#INSTALLATION)
 * [Dependencies](#DEPENDENCIES)
 * [Script Files](#SCRIPT_FILES)
 * [Module Functions](#MODULE_FUNCTIONS)
@@ -19,6 +20,19 @@ Contents
 * [Contributions](#CONTRIBUTIONS)
 * [License](#LICENSE)
 
+
+<a id="INSTALLATION"></a>
+Installation
+------------
+##### Client:
+
+Simply create a folder within your Wakanda project's WebFolder named `scripts` and copy 
+`mimeTypes.js` into it. Be sure that this location is recognized by your AMD vehicle (e.g.
+RequireJS). 
+
+##### Server:
+
+Simply create a folder named `Modules` in your Wakanda project and copy `mimeTypes.js` into it. 
 
 <a id="DEPENDENCIES"></a>
 Dependencies
@@ -80,20 +94,25 @@ mimeTypes uses Wakanda's implementation of [YUI Test](http://yuilibrary.com/yui/
 
 ##### To test the client side:
 
-1. In Wakanda Studio, open WebFolder/index/index.html.
-2. Click Run. The results should appear in your browser.
+1. Copy `mimeTypesTest.waPage` into your Wakanda project's WebFolder.
+2. Copy `testCases.js` into the `scripts` folder in your Wakanda project's WebFolder.
+3. In Wakanda Studio, open `mimeTypesTest.waPage`.
+4. Click Run File. The results should appear in your web browser.
 
 ##### To test the server side:
 
-1. In Wakanda Studio, open scripts/test.js.
-2. Click Run File. The results should appear in your browser.
+1. Copy `testCases.js` into your Wakanda project's `Modules` folder.
+2. Copy `test.js` into your Wakanda project as a server-side script.
+3. In Wakanda Studio, open `test.js`.
+4. Click Run File. Doing so will create a `testResults.html` file in the same location as the
+`test.js` file. The results should appear in your browser automatically. If they do not, open the
+`testResults.html` file. 
 
 <a id="CONTRIBUTIONS"></a>
 Contributions
 -------------
-If you contribute to this library, just modify `WebFolder/scripts/mimeTypes.js` and 
-`WebFolder/scripts/testCases.js` or `Modules/mimeTypes.js` and `Modules/testCases.js` and send a
-pull request. Please remember to update the markdown if the public interface changes. 
+If you contribute to this library, just modify `mimeTypes.js` and `testCases.js` and send a pull
+request. Please remember to update the markdown if the public interface changes. 
 
 <a id="LICENSE"></a>
 License

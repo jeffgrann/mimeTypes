@@ -1,6 +1,6 @@
 {
     "name": "mimeTypes",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Determines the MIME type of files based on their name and/or extension.",
     "main": "./WakandaProject/mimeTypes/Modules/mimeTypes.js",
     "keywords": [
